@@ -7,7 +7,7 @@ const button = document.getElementById('myButton');
     });
 
     
-    button.addEventListener('mouseout', function() {
+    button.addEventListener('click', function() {
         div.style.display = 'none';
     });
 
